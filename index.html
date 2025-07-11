@@ -22,10 +22,10 @@
 
     btn.addEventListener('click', async () => {
       // Check for API support
-      if (!('contacts' in navigator && 'select' in navigator.contacts)) {
-        alert('Contact Picker API not supported on this browser.');
-        return;
-      }
+      // if (!('contacts' in navigator && 'select' in navigator.contacts)) {
+      //   alert('Contact Picker API not supported on this browser.');
+      //   return;
+      // }
       try {
         // Define properties we want
         const props = ['name', 'tel', 'email'];
